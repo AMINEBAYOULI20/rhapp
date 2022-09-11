@@ -1,0 +1,28 @@
+
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container-fluid">
+    <img src="assets/logorh3.png" alt=" Logo rh" style="width: 200px;height: 50px;"  routerLink="/home" >
+    <!-- <i src="assets/logorh.png"></i>  -->
+
+    <!-- <a class="navbar-brand"href="/home">R Hormiga</a> -->
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <!-- <li class="nav-item">
+          <button class="button2 " style="margin-left: 30px;margin-right: 10px;" aria-current="page" routerLink="/home">Home</button>
+        </li> -->
+        <li class="nav-item">
+          <button class="button2" routerLink="/condidat"  *ngIf="this.auth.isauth===false">Espace Condidat</button>
+        </li>
+     
+        
+      </ul> 
+      <div class="d-flex">
+        <button class="button1"  routerLink="/login" *ngIf="this.auth.isauth==false" >Se connecter</button>
+        <button class="button1"  (click)="logout()" *ngIf="this.auth.isauth==true">Déconnexion</button>
+
+      </div>
+    </div>
+  </div>
+</nav>

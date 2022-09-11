@@ -1,0 +1,498 @@
+{
+  "condidate": [
+    {
+      "id": 1,
+      "cin": 12345678,
+      "nom": "con1",
+      "prenom": "pcon1",
+      "date_nais": "14/2/1111",
+      "tel": 12345678,
+      "adresse": "mednine",
+      "email": "1234@gmail.com",
+      "genre": "h",
+      "role": "dev"
+    },
+    {
+      "id": 2,
+      "cin": 555555,
+      "nom": "con1",
+      "prenom": "pcon1",
+      "date_nais": "14/2/1111",
+      "tel": 1234678,
+      "adresse": "mednine",
+      "email": "1234@gmail.com",
+      "genre": "h",
+      "role": "dev"
+    },
+    {
+      "id": 3,
+      "cin": 666666666666,
+      "nom": "con1",
+      "prenom": "pcon1",
+      "date_nais": "14/2/1111",
+      "tel": 1234568,
+      "adresse": "mednine",
+      "email": "1234@gmail.com",
+      "genre": "h",
+      "role": "dev"
+    },
+    {
+      "id": 4,
+      "cin": 88888888888,
+      "nom": "con1",
+      "prenom": "pcon1",
+      "date_nais": "14/2/1111",
+      "tel": 2345678,
+      "adresse": "mednine",
+      "email": "1234@gmail.com",
+      "genre": "h",
+      "role": "dev"
+    }
+  ],
+  "employe": [
+    {
+      "id": 6,
+      "cin": "12345678",
+      "nom": "ali",
+      "prenom": "sekrafi",
+      "date_nais": "1999-05-14",
+      "tel": 25000234,
+      "adresse": "med",
+      "email": "ali@gmail",
+      "salaire": 122,
+      "genre": "h",
+      "role": "développeur",
+      "password": "1234567"
+    },
+    {
+      "id": 7,
+      "cin": "13141512",
+      "nom": "Saif ",
+      "prenom": "Selmi",
+      "date_nais": "1999-11-11",
+      "tel": 95000111,
+      "adresse": "Mednine",
+      "email": "saif@gmail.com",
+      "salaire": "",
+      "genre": "homme",
+      "role": "développeur",
+      "password": "12345aaa"
+    },
+    {
+      "id": 10,
+      "cin": "12345678",
+      "nom": "Ahmid",
+      "prenom": "Rahmani",
+      "date_nais": "2000-12-13",
+      "tel": 541234567,
+      "adresse": "Mednine",
+      "email": "ahmed@gmail.com",
+      "salaire": "1200",
+      "genre": "homme",
+      "role": "ADMIN",
+      "password": "12AZQSXC"
+    },
+    {
+      "id": 13,
+      "cin": 1341223,
+      "nom": "Ahlam",
+      "prenom": "salhi",
+      "date_nais": "1998-03-04",
+      "tel": 25432456,
+      "adresse": "med",
+      "email": "salhi@gmail.com",
+      "salaire": 4,
+      "genre": "femme",
+      "role": "designer",
+      "password": "12345678"
+    },
+    {
+      "id": 46,
+      "cin": 1341223,
+      "nom": "Rahma",
+      "prenom": "Mohamed",
+      "date_nais": "2022-03-04",
+      "tel": 25432456,
+      "adresse": "med",
+      "email": "rahma@gmail.com",
+      "salaire": 4,
+      "genre": "femme",
+      "role": "designer",
+      "password": "12345678"
+    }
+  ],
+  "conge": [
+    {
+      "id": 2,
+      "id_emp": 46,
+      "raison": "maladi",
+      "date_debut": "2022-03-18",
+      "date_fin": "2022-03-22",
+      "date_dem": "2022-03-18",
+      "response": null
+    },
+    {
+      "id": 3,
+      "id_emp": 7,
+      "raison": "vacance",
+      "date_debut": "2022-05-18",
+      "date_fin": "2022-05-28",
+      "date_dem": "2022-04-10",
+      "response": null
+    },
+    {
+      "id": 5,
+      "id_emp": 10,
+      "raison": "vacance",
+      "date_debut": "2022-05-18",
+      "date_fin": "2022-05-28",
+      "date_dem": "2022-04-10",
+      "response": null
+    },
+    {
+      "id": 4,
+      "raison": "formation",
+      "date_debut": "2022-04-05",
+      "date_fin": "2022-04-20",
+      "id_emp": 13,
+      "response": ""
+    },
+    {
+      "id": 6,
+      "raison": "formation",
+      "date_debut": "2022-05-05",
+      "date_fin": "2022-06-20",
+      "id_emp": 10,
+      "response": ""
+    }
+  ],
+  "meeting": [
+    {
+      "id": 1,
+      "titre": "hhhhhh",
+      "sujet": "aaaaaaaaaaaaaaaaa  ",
+      "date": "",
+      "time": "12:12",
+      "equipe": []
+    },
+    {
+      "id": 32,
+      "titre": "nxckjsh",
+      "sujet": "hfdiij",
+      "date": "2022-03-31",
+      "time": "17:43",
+      "equipe": [
+        {
+          "id": 1,
+          "cin": "3333",
+          "nom": "ali",
+          "prenom": "nnnn",
+          "date_nais": "",
+          "tel": 24,
+          "adresse": "med",
+          "email": "admin@admin.com",
+          "salaire": "",
+          "genre": "h",
+          "role": "admin",
+          "password": "azerty"
+        }
+      ]
+    },
+    {
+      "id": 33,
+      "titre": "nxckjsh",
+      "sujet": "hfdiij",
+      "date": "2022-03-31",
+      "time": "17:43",
+      "equipe": [
+        {
+          "id": 1,
+          "cin": "3333",
+          "nom": "ali",
+          "prenom": "nnnn",
+          "date_nais": "",
+          "tel": 24,
+          "adresse": "med",
+          "email": "admin@admin.com",
+          "salaire": "",
+          "genre": "h",
+          "role": "admin",
+          "password": "azerty"
+        }
+      ]
+    },
+    {
+      "id": 34,
+      "titre": "nxckjsh",
+      "sujet": "hfdiij",
+      "date": "2022-03-31",
+      "time": "20:00",
+      "equipe": [
+        {
+          "id": 101,
+          "cin": "",
+          "nom": "ali",
+          "prenom": "",
+          "date_nais": "",
+          "tel": "",
+          "adresse": "",
+          "email": "admin@admin.com",
+          "salaire": "",
+          "genre": "h",
+          "role": "",
+          "password": "azerty"
+        }
+      ]
+    },
+    {
+      "id": 37,
+      "titre": "sout",
+      "sujet": "sout",
+      "date": "2022-03-24",
+      "time": "",
+      "equipe": []
+    },
+    {
+      "id": 39,
+      "titre": "aezrreqrdqf",
+      "sujet": "",
+      "date": "",
+      "time": "",
+      "equipe": []
+    },
+    {
+      "id": 40,
+      "titre": "sout",
+      "sujet": "sout",
+      "date": "2022-04-01",
+      "time": "23:22",
+      "equipe": [
+        {
+          "id": 6,
+          "cin": "12345678",
+          "nom": "ali",
+          "prenom": "sekrafi",
+          "date_nais": "",
+          "tel": "",
+          "adresse": "Mednine",
+          "email": "alisekrafi3@gmail.com",
+          "salaire": "",
+          "genre": "h",
+          "role": "tec",
+          "password": ""
+        },
+        {
+          "id": 13,
+          "cin": "12345678",
+          "nom": "ali",
+          "prenom": "sekrafi",
+          "date_nais": "",
+          "tel": 2.2222222233333333e+30,
+          "adresse": "Mednine",
+          "email": "admin@gmail.com",
+          "salaire": "",
+          "genre": "f",
+          "role": "admin",
+          "password": ""
+        },
+        {
+          "id": 10,
+          "cin": "12345678",
+          "nom": "ali",
+          "prenom": "sekrafi",
+          "date_nais": "",
+          "tel": 2.2222222233333333e+30,
+          "adresse": "Mednine",
+          "email": "admin@gmail.com",
+          "salaire": "",
+          "genre": "f",
+          "role": "admin",
+          "password": ""
+        }
+      ]
+    },
+    {
+      "id": 41,
+      "titre": "sout",
+      "sujet": "sout",
+      "date": "2022-04-01",
+      "time": "23:22",
+      "equipe": [
+        {
+          "id": 6,
+          "cin": "12345678",
+          "nom": "ali",
+          "prenom": "sekrafi",
+          "date_nais": "",
+          "tel": "",
+          "adresse": "Mednine",
+          "email": "alisekrafi3@gmail.com",
+          "salaire": "",
+          "genre": "h",
+          "role": "tec",
+          "password": ""
+        },
+        {
+          "id": 13,
+          "cin": "12345678",
+          "nom": "ali",
+          "prenom": "sekrafi",
+          "date_nais": "",
+          "tel": 2.2222222233333333e+30,
+          "adresse": "Mednine",
+          "email": "admin@gmail.com",
+          "salaire": "",
+          "genre": "f",
+          "role": "admin",
+          "password": ""
+        },
+        {
+          "id": 10,
+          "cin": "12345678",
+          "nom": "ali",
+          "prenom": "sekrafi",
+          "date_nais": "",
+          "tel": 2.2222222233333333e+30,
+          "adresse": "Mednine",
+          "email": "admin@gmail.com",
+          "salaire": "",
+          "genre": "f",
+          "role": "admin",
+          "password": ""
+        }
+      ]
+    },
+    {
+      "id": 42,
+      "titre": "nnnnnnnnnn",
+      "sujet": "",
+      "date": "",
+      "time": "",
+      "equipe": []
+    },
+    {
+      "id": 43,
+      "titre": "",
+      "sujet": "",
+      "date": "2022-04-02",
+      "time": "22:45",
+      "equipe": [
+        {
+          "id": 6,
+          "cin": "12345678",
+          "nom": "ali",
+          "prenom": "sekrafi",
+          "date_nais": "",
+          "tel": "",
+          "adresse": "Mednine",
+          "email": "alisekrafi3@gmail.com",
+          "salaire": "",
+          "genre": "h",
+          "role": "dev",
+          "password": ""
+        },
+        {
+          "id": 10,
+          "cin": "12345678",
+          "nom": "ali",
+          "prenom": "sekrafi",
+          "date_nais": "",
+          "tel": 2.2222222233333333e+30,
+          "adresse": "Mednine",
+          "email": "admin@gmail.com",
+          "salaire": "",
+          "genre": "f",
+          "role": "admin",
+          "password": ""
+        },
+        {
+          "id": 54,
+          "cin": 12333333333333,
+          "nom": "aazAAAA",
+          "prenom": "emp1",
+          "date_nais": "2022-03-05",
+          "tel": 8,
+          "adresse": "dvsgfg",
+          "email": "alisekrafi3@gmail.com",
+          "salaire": 4,
+          "genre": "h",
+          "role": "MLKKL",
+          "password": "bbbbb"
+        }
+      ]
+    },
+    {
+      "id": 44,
+      "titre": "",
+      "sujet": "",
+      "date": "2022-04-28",
+      "time": "19:11",
+      "equipe": [
+        {
+          "id": 13,
+          "cin": 1341223,
+          "nom": "Ahlam",
+          "prenom": "salhi",
+          "date_nais": "1998-03-04",
+          "tel": 25432456,
+          "adresse": "med",
+          "email": "salhi@gmail.com",
+          "salaire": 4,
+          "genre": "femme",
+          "role": "designer",
+          "password": "12345678"
+        }
+      ]
+    }
+  ],
+  "annonce": [
+    {
+      "id": 9,
+      "titre": "Séminaire",
+      "sujet": "Pour le département de developpement le 12/06/2022 il ya un séminaire et une formation ./n Pour plus d'informations contacter le chef de département",
+      "date": "2022-04-09"
+    },
+    {
+      "id": 10,
+      "titre": "sout",
+      "sujet": "bbb",
+      "date": "2022-03-24"
+    },
+    {
+      "id": 11,
+      "titre": "so",
+      "sujet": "bbbbbbb",
+      "date": "2022-03-26"
+    },
+    {
+      "id": 12,
+      "titre": "soutnnnnn",
+      "sujet": "nnnnnnnnnnnnnn",
+      "date": "2022-03-30"
+    },
+    {
+      "id": 14,
+      "titre": "sout",
+      "sujet": "SDdqqsdcwxcjkjqskj\n\n\nqSJNNKJQSKDJK",
+      "date": "2022-03-24"
+    },
+    {
+      "id": 15,
+      "titre": "nnnnnnnnnn",
+      "sujet": "bbbbbbbbbbbb\nnnnnnnnnnn\njjjjjjjjjjjjjjjj",
+      "date": "2022-03-11"
+    },
+    {
+      "id": 16,
+      "raison": "",
+      "date_debut": "",
+      "date_fin": ""
+    },
+    {
+      "id": 17,
+      "raison": "nnnnnnnnnnnn",
+      "date_debut": "",
+      "date_fin": ""
+    }
+  ]
+}
